@@ -29,9 +29,7 @@ Working space/rooms in the campus
 University students
 
 ## Initial IT Venture Direction
-Shuttle Bus Tracking
-Booking Rooms
-Room Tracking
+The IT solution direction is a simple University Room Booking Web App. It lets students check room availability and book study spaces and meeting rooms directly from any web browser, simplifying the booking process.
 
 ## Technology Possibility
 Possible technologies:
