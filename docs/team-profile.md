@@ -3,3 +3,18 @@
 2. 6808552 | Swe Zin Win | Technical Lead | Manages prototype development, repository structure, and technical feasibility. </br>
 
 3. 6509544 | Htet Myat Noe |  Product Lead, Validation Lead | Defines problem, target users, value proposition, and project direction. Manages customer discovery, survey/interview evidence, and metric collection.
+<br>
+
+| Nichaphat Leamviset | Wireframes, Userflow | Canva | Presentation |
+| Swe Zin Win | JavaScript beginner | Basic HTML, CSS | Team coordination |
+| Htet Myat Noe | Spreadsheet | Google Survey | Interview questions | Google docs |
+
+<br><br>
+
+## <strong> Team Working Agreement </strong> <br>
+
+1. Meeting schedule: Every time when it's necessary <br>
+2. Communication channel: LINE group <br>
+3. File naming rule: lowercase-with-hyphen <br>
+4. GitHub commit rule: commit after every completed task <br>
+5. Conflict resolution rule: discuss in meeting, vote if needed <br>
