@@ -50,8 +50,7 @@ Possible technologies:
 | Lab 1 | Lab setup and idea log | Repository, team profile, initial idea log | In progress |
 
 ## Current Status
-
-Write 3-5 sentences about what the team completed in Lab 1.
+During Lab 1, the team set up the project repository and organized the folder structure. We created the team profile and discussed several project ideas before selecting the Room Booking System as our final project. The team also completed the initial idea log, including the problem area, target users, proposed solution, and potential technologies. Basic project documentation and README files were prepared for the repository.
 
 ## Next Step
-Write what the team will do in Lab 2.
+In Lab 2, the team will gather and analyze system requirements for the Room Booking System. We will create use case diagrams and other system design documents. The team will also begin designing the user interface and database structure. Tasks and responsibilities will be assigned to each team member for the next development phase.
