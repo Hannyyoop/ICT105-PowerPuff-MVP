@@ -5,8 +5,8 @@
 3. 6509544 | Htet Myat Noe |  Product Lead, Validation Lead | Defines problem, target users, value proposition, and project direction. Manages customer discovery, survey/interview evidence, and metric collection.
 <br>
 
-| Nichaphat Leamviset | Wireframes, Userflow | Canva | Presentation |
-| Swe Zin Win | JavaScript beginner | Basic HTML, CSS | Team coordination |
+| Nichaphat Leamviset | Wireframes, Userflow | Canva | Presentation | <br>
+| Swe Zin Win | JavaScript beginner | Basic HTML, CSS | Team coordination | <br> 
 | Htet Myat Noe | Spreadsheet | Google Survey | Interview questions | Google docs |
 
 <br><br>
