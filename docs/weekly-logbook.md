@@ -10,14 +10,16 @@
 1. Getting familiar with GitHub
 2. Thinking about the pain points of the target users before starting to develop a new app.
 
-3.
 ### Problems or Difficulties
 1. Just technical incompetencies
 
-2.
 ### Evidence of Work
 - GitHub repository link: https://github.com/Hannyyoop/ICT105-PowerPuff-MVP.git
-- Screenshot: <img width="350" height="881" alt="folderstructure" src="https://github.com/user-attachments/assets/00d2c32b-6ee3-4de1-9811-9d4e76f7eb54" />
+- Screenshot: <br>
+ <img width="200" height="500" alt="folderstructure" src="https://github.com/user-attachments/assets/00d2c32b-6ee3-4de1-9811-9d4e76f7eb54" /> <br>
+ <img width="800" height="350" alt="issue" src="https://github.com/user-attachments/assets/414a862a-edfc-4e2f-86e9-a0b945d774e1" />
+
+
 - Commit link: https://github.com/Hannyyoop/ICT105-PowerPuff-MVP/commits/main/
   
 ### Decision Made This Week
