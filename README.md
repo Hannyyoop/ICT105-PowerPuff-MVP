@@ -29,12 +29,15 @@ Working space/rooms in the campus
 University students
 
 ## Initial IT Venture Direction
-Checking the room's availability and bookin
+Shuttle Bus Tracking
+Booking Rooms
+Room Tracking
 
 ## Technology Possibility
 Possible technologies:
 - Web application
 - Dashboard
+  
 
 ## Repository Structure
 - docs: reports, profiles, idea logs, and weekly logbooks
