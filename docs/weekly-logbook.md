@@ -17,10 +17,9 @@
 2.
 ### Evidence of Work
 - GitHub repository link: https://github.com/Hannyyoop/ICT105-PowerPuff-MVP.git
-- Screenshot: 
-- File created: 
-- Commit link:
-- 
+- Screenshot: <img width="350" height="881" alt="folderstructure" src="https://github.com/user-attachments/assets/00d2c32b-6ee3-4de1-9811-9d4e76f7eb54" />
+- Commit link: https://github.com/Hannyyoop/ICT105-PowerPuff-MVP/commits/main/
+  
 ### Decision Made This Week
 Decided on our group's project - Booking Room System 
 
