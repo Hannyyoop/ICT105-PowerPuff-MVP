@@ -48,6 +48,7 @@ Possible technologies:
   
 ## Weekly Progress Log
 | Lab 1 | Lab setup and idea log | Repository, team profile, initial idea log | In progress |
+| Lab 2 | Opportunity Scanning | Opportunity scan document,selected project decision document | In Progress |
 
 ## Current Status
 During Lab 1, the team set up the project repository and organized the folder structure. We created the team profile and discussed several project ideas before selecting the Room Booking System as our final project. The team also completed the initial idea log, including the problem area, target users, proposed solution, and potential technologies. Basic project documentation and README files were prepared for the repository.
