@@ -7,7 +7,7 @@
 3. Done the git commits
 
 ### What We Learned
-1. Getting familiar with GitHub
+1. Getting familiar with GitHub.
 2. Thinking about the pain points of the target users before starting to develop a new app.
 
 ### Problems or Difficulties
