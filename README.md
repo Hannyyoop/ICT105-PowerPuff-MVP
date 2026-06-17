@@ -51,7 +51,11 @@ Possible technologies:
 | Lab 2 | Opportunity Scanning | Opportunity scan document,selected project decision document | In Progress |
 
 ## Current Status
-During Lab 1, the team set up the project repository and organized the folder structure. We created the team profile and discussed several project ideas before selecting the Room Booking System as our final project. The team also completed the initial idea log, including the problem area, target users, proposed solution, and potential technologies. Basic project documentation and README files were prepared for the repository.
+
+During Lab 1, the team set up the project repository and organized the folder structure. We created the team profile and discussed several project ideas before selecting the Room Booking System as the initial direction. The initial idea log was completed, including the problem area, target users, proposed solution, and potential technology options. Basic project documentation and README files were also prepared.
+
+During Lab 2, the team conducted an opportunity scan and evaluated three project ideas: Room Booking System, Cafeteria Queue System, and Campus Navigation App using the NUF (New, Useful, Feasible) framework. After comparison, the Room Booking System was confirmed as the final project due to its high feasibility and practicality. The opportunity discovery table, technology feasibility mapping, and scoring sheet were completed.
 
 ## Next Step
-In Lab 2, the team will gather and analyze system requirements for the Room Booking System. We will create use case diagrams and other system design documents. The team will also begin designing the user interface and database structure. Tasks and responsibilities will be assigned to each team member for the next development phase.
+
+In Lab 3, the team will gather detailed requirements for the Room Booking System and create system design documents such as use case diagrams and workflow diagrams. The team will also begin designing the user interface and database structure, with tasks assigned to each team member for development.
