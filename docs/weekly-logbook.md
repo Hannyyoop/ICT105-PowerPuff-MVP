@@ -22,13 +22,11 @@
 
 - Commit link: https://github.com/Hannyyoop/ICT105-PowerPuff-MVP/commits/main/
   
-### Decision Made This Week
+### Decision Made This Week (Lab 1)
 Decided on our group's project - Booking Room System 
 
-### Plan for Next Week
-Gather and analyze user requirements.
-Research existing room booking systems for reference.
-Define the system's main features and functions.
-Create initial wireframes and user interface designs.
-Design the database structure and system workflow.
-Assign tasks and responsibilities to each team member.
+
+### Lab 2 Reflection
+In Lab 2, I evaluated three project ideas: Room Booking System, Cafeteria Queue System, and Campus Navigation App using the NUF (New, Useful, Feasible) framework. After comparing the scores, I decided to proceed with the Room Booking System because it is highly feasible to develop and addresses the problem of finding and reserving available study rooms efficiently.
+My next steps are to gather user requirements, design the system interface, and develop a basic prototype with features such as room availability viewing, booking management, and reservation tracking.
+This activity helped me identify a project idea that is practical, useful, and achievable within the available timeframe.
