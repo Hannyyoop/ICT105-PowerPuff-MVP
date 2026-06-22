@@ -47,8 +47,11 @@ Possible technologies:
 - pitch: pitch deck and final demo files
   
 ## Weekly Progress Log
-| Lab 1 | Lab setup and idea log | Repository, team profile, initial idea log | In progress |
-| Lab 2 | Opportunity Scanning | Opportunity scan document,selected project decision document | In Progress |
+| Lab 1 | Lab setup and idea log | Repository, team profile, initial idea log | Completed |
+
+| Lab 2 | Opportunity Scanning | Opportunity scan document,selected project decision document | Completed |
+
+| Lab 3 | Requirements & User Modeling | Use Case diagrams, User workflow/activity diagrams, User Requirement Specifications (URS) | Inprogress |
 
 ## Current Status
 
@@ -56,6 +59,8 @@ During Lab 1, the team set up the project repository and organized the folder st
 
 During Lab 2, the team conducted an opportunity scan and evaluated three project ideas: Room Booking System, Cafeteria Queue System, and Campus Navigation App using the NUF (New, Useful, Feasible) framework. After comparison, the Room Booking System was confirmed as the final project due to its high feasibility and practicality. The opportunity discovery table, technology feasibility mapping, and scoring sheet were completed.
 
+During Lab 3, the team shifted focus toward the customer and end-user perspective. Instead of jumpstarting the web interface design, we are strictly concentrating on gathering detailed user requirements and mapping out how the customer interacts with the Room Booking System. We are currently defining the core user personas, analyzing their specific pain points, and translating them into functional requirements. The team is actively developing Use Case diagrams and initial customer workflow/activity diagrams to model the exact steps a user takes to find and book a room.
+
 ## Next Step
 
-In Lab 3, the team will gather detailed requirements for the Room Booking System and create system design documents such as use case diagrams and workflow diagrams. The team will also begin designing the user interface and database structure, with tasks assigned to each team member for development.
+In Lab 4, once the customer-centric requirements and backend logic are fully solidified, the team will transition into architectural design. This will include structuring the database schema (ER-diagrams) to support the user workflows and finally beginning the user interface (UI) wireframing and prototyping stage based on the established customer journey. Tasks will be specifically allocated for the initial development sprint.
