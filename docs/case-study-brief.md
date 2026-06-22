@@ -21,6 +21,5 @@ Students struggle to secure spaces effectively because room availability is not 
 A web-based and mobile-friendly room booking platform where users can view available rooms and time slots in real time, submit online booking requests, receive instant confirmations or updates, and easily modify or cancel their reservations.
 
 ## Feasible Tools
-Google Forms, Google Sheets, Figma, HTML/CSS/JS, Airtable/Notion database, or a simple web dashboard.
-
+Google Forms, Google Sheets, Figma for prototyping, HTML/CSS/JS for the website, Node.js and MySQL for the booking backend, and Firebase for login and hosting.
 
