@@ -30,3 +30,11 @@ Decided on our group's project - Booking Room System
 In Lab 2, I evaluated three project ideas: Room Booking System, Cafeteria Queue System, and Campus Navigation App using the NUF (New, Useful, Feasible) framework. After comparing the scores, I decided to proceed with the Room Booking System because it is highly feasible to develop and addresses the problem of finding and reserving available study rooms efficiently.
 My next steps are to gather user requirements, design the system interface, and develop a basic prototype with features such as room availability viewing, booking management, and reservation tracking.
 This activity helped me identify a project idea that is practical, useful, and achievable within the available timeframe.
+
+### Lab 3 Reflection
+
+In Lab 3, we focused on understanding the problems associated with the current room reservation process. Through observations and discussions with potential users, we identified several pain points, including the need to visit the office to fill out paper forms, the lack of real-time room availability information, and the dependence on staff for reserving study spaces. We also recognized that the booking forms are available only in Thai, which creates difficulties for international students.
+
+Based on these findings, we documented the target users, current alternatives, and the consequences of the existing process. We also created an assumption-evidence table to distinguish between assumptions and supporting evidence gathered from observations and user feedback.
+
+Our next steps are to conduct a user survey to validate these assumptions, collect additional requirements, and begin designing a prototype for a web-based room booking system. This activity helped us gain a better understanding of users' needs and provided a clearer direction for developing a solution that is more efficient and accessible.
