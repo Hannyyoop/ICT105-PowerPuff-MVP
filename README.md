@@ -51,7 +51,9 @@ Possible technologies:
 
 | Lab 2 | Opportunity Scanning | Opportunity scan document,selected project decision document | Completed |
 
-| Lab 3 | Requirements & User Modeling | Use Case diagrams, User workflow/activity diagrams, User Requirement Specifications (URS) | Inprogress |
+| Lab 3 | Requirements & User Modeling | Use Case diagrams, User workflow/activity diagrams, User Requirement Specifications (URS) | Completed |
+
+| Lab 4 | MVP Architecture & Flowcharts | Core MVP feature matrix, detailed system flowchart diagram | Inprogress |
 
 ## Current Status
 
@@ -61,6 +63,8 @@ During Lab 2, the team conducted an opportunity scan and evaluated three project
 
 During Lab 3, the team shifted focus toward the customer and end-user perspective. Instead of jumpstarting the web interface design, we are strictly concentrating on gathering detailed user requirements and mapping out how the customer interacts with the Room Booking System. We are currently defining the core user personas, analyzing their specific pain points, and translating them into functional requirements. The team is actively developing Use Case diagrams and initial customer workflow/activity diagrams to model the exact steps a user takes to find and book a room.
 
+During Lab 4, the team transitioned from abstract user requirements to concrete solution architecture. We focused strictly on defining our Minimum Viable Product (MVP) feature set to prevent scope creep, ensuring the core application addresses the main user pain points (such as language barriers and lack of real-time availability) effectively.
+
 ## Next Step
 
-In Lab 4, once the customer-centric requirements and backend logic are fully solidified, the team will transition into architectural design. This will include structuring the database schema (ER-diagrams) to support the user workflows and finally beginning the user interface (UI) wireframing and prototyping stage based on the established customer journey. Tasks will be specifically allocated for the initial development sprint.
+Moving into Lab 5, the team will translate the system flowchart logic designed in Lab 4 into visual layouts by creating low-fidelity, bilingual wireframes for the BookUP dashboard and reviewing them for technical feasibility and product alignment.
