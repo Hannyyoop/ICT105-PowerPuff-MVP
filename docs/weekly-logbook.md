@@ -38,3 +38,7 @@ In Lab 3, we focused on understanding the problems associated with the current r
 Based on these findings, we documented the target users, current alternatives, and the consequences of the existing process. We also created an assumption-evidence table to distinguish between assumptions and supporting evidence gathered from observations and user feedback.
 
 Our next steps are to conduct a user survey to validate these assumptions, collect additional requirements, and begin designing a prototype for a web-based room booking system. This activity helped us gain a better understanding of users' needs and provided a clearer direction for developing a solution that is more efficient and accessible.
+
+### Lab 4 Reflection
+In Lab 4, we transitioned from understanding user problems to designing the actual solution. Our focus was on defining our Minimum Viable Product (MVP) features and mapping out the user experience using a diagram flowchart.
+To ensure we build something achievable yet highly effective, we categorized our features into "Must-Haves" (the core MVP) and "Nice-to-Haves" (future updates), ensuring we solve the core issue of real-time room booking without getting bogged down by feature creep.
