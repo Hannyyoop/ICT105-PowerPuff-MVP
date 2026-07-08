@@ -2,7 +2,8 @@
 
 | Check Item | Yes/No | Evidence or Screenshot |
 |---|---|---|
-| The homepage clearly states the problem and main action. | Yes | |
+| The homepage clearly states the problem and main action. | Yes | <img width="483" height="433" alt="homepage" src="https://github.com/user-attachments/assets/47f3c230-7bf7-4463-983b-e49e7dda9ea6" />
+ |
 | The main user pathway can be followed from start to finish. | Yes | |
 | The input form includes required fields and validation feedback. | Yes | |
 | The record list includes search/filter/category controls. | Yes | |
