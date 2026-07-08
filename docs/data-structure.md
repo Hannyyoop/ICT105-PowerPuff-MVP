@@ -49,7 +49,7 @@
 
 Sample booking records are stored in:
 
-
+https://github.com/Hannyyoop/ICT105-PowerPuff-MVP/blob/main/data/Room%20Booking.xlsx
 
 ## 5. Data Privacy Note
 
