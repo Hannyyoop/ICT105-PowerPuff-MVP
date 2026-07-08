@@ -34,7 +34,6 @@ The system creates value by:
 ## 6. Key Resources
 
 - HTML, CSS, and JavaScript
-- Google Sheets (or database)
 - Internet connection
 - Study room information
 - Student booking data
@@ -46,7 +45,6 @@ The system creates value by:
 - Process room bookings
 - Update room availability
 - Manage booking records
-- Prevent double bookings
 - Allow staff to manage reservations
 
 ## 8. Key Partners
