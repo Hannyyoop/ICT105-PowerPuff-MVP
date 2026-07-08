@@ -9,7 +9,7 @@
 | The detail view shows full information and current status. | Yes | <img width="468" height="402" alt="Screenshot 2569-07-08 at 2 02 38 PM" src="https://github.com/user-attachments/assets/7e73bb30-0fe9-4544-8a53-4f0b0534f536" /> |
 | The admin view includes at least one management action. | Yes | <img width="441" height="417" alt="image" src="https://github.com/user-attachments/assets/e8502367-7157-4cc4-86e1-cc80735cbd6b" /> |
 | The dashboard shows meaningful summary information. | Yes | <img width="437" height="416" alt="dashboard" src="https://github.com/user-attachments/assets/ea425777-6aa9-4dca-bfa8-28ea2652ed45" /> |
-| Navigation is consistent across screens. | Yes | |
+| Navigation is consistent across screens. | Yes | <img width="427" height="101" alt="Screenshot 2569-07-08 at 2 34 27 PM" src="https://github.com/user-attachments/assets/1eb489ec-dc59-4d27-82c3-8c0f752b6624" /> |
 | The design uses realistic sample data. | Yes | |
 | Each screen maps to system-requirements.md. | Yes | |
 
