@@ -48,4 +48,7 @@ Got it. Let’s keep it short, direct, and written exactly like your Lab 2, 3, a
 ### Lab 5 Reflection
 In Lab 5, we transitioned from system flowcharts to user interface design by creating low-to-mid fidelity wireframes. We focused on designing a clean and intuitive layout for the core MVP features, including the room discovery dashboard, calendar time-slot selection, and booking confirmation screens. Concurrently, we updated our GitHub repository to sync our design assets and documentation.
 
-Our next steps are to move into backend planning by designing an Entity-Relationship Diagram (ERD) and a data dictionary to support these interface layouts. This activity helped us visualize the actual user journey and gave us a clear visual blueprint before starting database engineering.
+### Lab 6 Reflection
+In Lab 6, we transitioned from user interface designs to backend architectural planning by focusing on database design and data modeling. We mapped out how data flows and resides within the application by creating an Entity-Relationship Diagram (ERD) to establish relationships between core objects like Users, Rooms, Bookings, and Time Slots. Additionally, we constructed a detailed Data Dictionary to explicitly define data types, primary keys, and foreign keys.
+
+Our next steps are to finalize our technological stack and set up the initial local development environment to prepare for functional prototyping. This activity helped us bridge the gap between frontend visuals and technical system architecture, ensuring our backend structure perfectly supports our MVP features.
