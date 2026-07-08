@@ -53,7 +53,10 @@ Possible technologies:
 
 | Lab 3 | Requirements & User Modeling | Use Case diagrams, User workflow/activity diagrams, User Requirement Specifications (URS) | Completed |
 
-| Lab 4 | MVP Architecture & Flowcharts | Core MVP feature matrix, detailed system flowchart diagram | Inprogress |
+| Lab 4 | MVP Architecture & Flowcharts | Core MVP feature matrix, detailed system flowchart diagram | Completed |
+
+| Lab 5 | UX/UI Design & Wireframing | Low/Mid-fidelity wireframes, interface screen layouts, GitHub repository sync | In progress |
+
 
 ## Current Status
 
@@ -65,6 +68,8 @@ During Lab 3, the team shifted focus toward the customer and end-user perspectiv
 
 During Lab 4, the team transitioned from abstract user requirements to concrete solution architecture. We focused strictly on defining our Minimum Viable Product (MVP) feature set to prevent scope creep, ensuring the core application addresses the main user pain points (such as language barriers and lack of real-time availability) effectively.
 
+During Lab 5, the team shifted from logical architecture to visual and interface design. Led by the UX/UI design role, we began translating the MVP feature matrix and user workflows into tangible user interfaces by creating low-to-mid fidelity wireframes. These wireframes map out the essential layouts for the room discovery dashboard, calendar scheduling view, and booking confirmation screens. Concurrently, the team updated and synchronized the GitHub repository, organizing the latest design assets, screenshots, and documentation under their respective directories to keep the project history transparent and up to date.
+
 ## Next Step
 
-Moving into Lab 5, the team will translate the system flowchart logic designed in Lab 4 into visual layouts by creating low-fidelity, bilingual wireframes for the BookUP dashboard and reviewing them for technical feasibility and product alignment.
+Moving into Lab 6, the team advanced from interface visuals to backend structural planning, focusing heavily on database engineering. Led by the Technical Lead, we are mapping how data flows and resides within the application to support the wireframed features. The team is actively constructing an Entity-Relationship Diagram (ERD) to establish relationships between key data objects—such as Users, Rooms, Bookings, and Time Slots—along with a comprehensive Data Dictionary to define data types and primary/foreign key keys.
