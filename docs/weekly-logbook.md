@@ -42,3 +42,10 @@ Our next steps are to conduct a user survey to validate these assumptions, colle
 ### Lab 4 Reflection
 In Lab 4, we transitioned from understanding user problems to designing the actual solution. Our focus was on defining our Minimum Viable Product (MVP) features and mapping out the user experience using a diagram flowchart.
 To ensure we build something achievable yet highly effective, we categorized our features into "Must-Haves" (the core MVP) and "Nice-to-Haves" (future updates), ensuring we solve the core issue of real-time room booking without getting bogged down by feature creep.
+
+Got it. Let’s keep it short, direct, and written exactly like your Lab 2, 3, and 4 reflections.
+
+### Lab 5 Reflection
+In Lab 5, we transitioned from system flowcharts to user interface design by creating low-to-mid fidelity wireframes. We focused on designing a clean and intuitive layout for the core MVP features, including the room discovery dashboard, calendar time-slot selection, and booking confirmation screens. Concurrently, we updated our GitHub repository to sync our design assets and documentation.
+
+Our next steps are to move into backend planning by designing an Entity-Relationship Diagram (ERD) and a data dictionary to support these interface layouts. This activity helped us visualize the actual user journey and gave us a clear visual blueprint before starting database engineering.
