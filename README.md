@@ -16,11 +16,11 @@ PowerPuff
 
 ## Team Members and Roles
 
- | Nichaphat Leamviset | UX/UI Lead, Documentation Lead | Designs wireframes, user flow, and interface screens. Maintains README, weekly logbook, report files, and final submission package. <br>
-
- | Swe Zin Win | Technical Lead | Manages prototype development, repository structure, and technical feasibility. <br>
-
- | Htet Myat Noe | Product Lead, Validation Lead | Defines problem, target users, value proposition, and project direction. Manages customer discovery, survey/interview evidence, and metric collection. <br>
+| Team Member | Role | Responsibilities |
+|--------------|------|------------------|
+| Nichaphat Leamviset | UX/UI Lead, Documentation Lead | Designs wireframes, user flow, and interface screens. Maintains README, weekly logbook, report files, and final submission package. |
+| Swe Zin Win | Technical Lead | Manages prototype development, repository structure, and technical feasibility. |
+| Htet Myat Noe | Product Lead, Validation Lead | Defines the problem, target users, value proposition, and project direction. Manages customer discovery, survey/interview evidence, and metric collection. |
  
 ## Initial Problem Area
 Working space/rooms in the campus
@@ -47,19 +47,16 @@ Possible technologies:
 - pitch: pitch deck and final demo files
   
 ## Weekly Progress Log
-| Lab 1 | Lab setup and idea log | Repository, team profile, initial idea log | Completed |
 
-| Lab 2 | Opportunity Scanning | Opportunity scan document,selected project decision document | Completed |
-
-| Lab 3 | Requirements & User Modeling | Use Case diagrams, User workflow/activity diagrams, User Requirement Specifications (URS) | Completed |
-
+| Lab | Topic | Deliverables | Status |
+|-------|-------|--------------|--------|
+| Lab 1 | Lab Setup and Idea Log | Repository, team profile, initial idea log | Completed |
+| Lab 2 | Opportunity Scanning | Opportunity scan document, selected project decision document | Completed |
+| Lab 3 | Requirements & User Modeling | Use case diagrams, user workflow/activity diagrams, User Requirements Specification (URS) | Completed |
 | Lab 4 | MVP Architecture & Flowcharts | Core MVP feature matrix, detailed system flowchart diagram | Completed |
-
-| Lab 5 | UX/UI Design & Wireframing | Low/Mid-fidelity wireframes, interface screen layouts, GitHub repository sync | In progress |
-
-| Lab 6 | Lean Feature Prioritization | Feature-Requirement mapping, Feature-Value metrics matrix | Completed |
-
-| Lab 7 | High-Fidelity Prototype & Experiment Design | Clickable high-fidelity walkthrough, MVP experiment script, validation template | In progress |
+| Lab 5 | UX/UI Design & Wireframing | Low-/mid-fidelity wireframes, interface screen layouts, GitHub repository synchronization | In Progress |
+| Lab 6 | Lean Feature Prioritization | Feature–requirement mapping, feature–value metrics matrix | Completed |
+| Lab 7 | High-Fidelity Prototype & Experiment Design | Clickable high-fidelity walkthrough, MVP experiment script, validation template | In Progress |
 
 
 ## Current Status
