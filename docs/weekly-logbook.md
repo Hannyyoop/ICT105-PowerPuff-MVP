@@ -51,4 +51,8 @@ In Lab 5, we transitioned from system flowcharts to user interface design by cre
 ### Lab 6 Reflection
 In Lab 6, we transitioned from user interface design to backend architectural planning by establishing our Feature-Requirement and Feature-Value mapping. We focused on aligning our wireframe layouts with our core functional requirements and user stories to ensure every screen directly solves a real user problem. By evaluating each feature's user and operational value, we successfully prioritized our MVP deliverables and identified areas in our admin workflow that need further refinement.
 
-Our next steps are to use these finalized feature mappings to design our Entity-Relationship Diagram (ERD) and structure our system's database schema. This activity helped us validate our design choices against our business goals and system requirements, preventing scope creep before we begin technical development.
+### In Lab 7 Reflection
+In Lab 7, focused on building an interactive high-fidelity prototype and designing our MVP validation experiment for the Room Booking System. We translated our prioritized wireframes into a clickable walkthrough that simulates the entire lifecycle of a reservation—from browsing real-time room availability and selecting a time slot to completing the booking form and checking the reservation status. Concurrently, we formulated an experiment script and a structured data collection format to track user success rates, completion times, and friction points during testing.
+
+
+Our next steps are to conduct user testing sessions with our peers, record their interactions into our validation dataset, and analyze the results to see if the system flow is truly intuitive. This activity helped us prepare a testable asset, ensuring we gather concrete, actionable feedback before committing to full system development.
