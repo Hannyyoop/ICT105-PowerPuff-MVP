@@ -1,0 +1,34 @@
+flowchart TD
+
+A[Prepare Room Booking Prototype]
+--> B[Select Student and Staff Test Users]
+
+B --> C[Explain Experiment Objective]
+
+C --> D[Student Uses Student Portal]
+
+D --> E[View Available Rooms]
+
+E --> F[Search for a Room]
+
+F --> G[Book a Room]
+
+G --> H[View My Bookings]
+
+H --> I[Cancel Booking]
+
+I --> J[Staff Uses Admin Portal]
+
+J --> K[Manage Rooms]
+
+K --> L[View Dashboard]
+
+L --> M[Collect User Feedback]
+
+M --> N[Evaluate Results]
+
+N --> O{Did Users Complete Tasks Successfully?}
+
+O -->|Yes| P[Proceed with Final Prototype]
+
+O -->|No| Q[Improve Prototype and Repeat Testing]
