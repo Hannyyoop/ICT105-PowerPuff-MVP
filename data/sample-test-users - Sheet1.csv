@@ -1,0 +1,6 @@
+"tester_code,tester_type,campus_role,experience_with_room_booking,reason_selected"
+"T01,Student,Undergraduate,Booked a study room before,Primary target user"
+"T02,Student,Undergraduate,Never booked a room before,Can evaluate ease of first-time booking"
+"T03,Student,International Student,Booked rooms using manual process,Can evaluate clarity and usability"
+"T04,Staff,Administrative Staff,Manages room reservations,Potential admin user"
+"T05,Student,Postgraduate,Frequently books rooms for group projects,Can evaluate the complete booking workflow"
