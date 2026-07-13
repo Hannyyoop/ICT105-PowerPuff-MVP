@@ -57,6 +57,10 @@ Possible technologies:
 
 | Lab 5 | UX/UI Design & Wireframing | Low/Mid-fidelity wireframes, interface screen layouts, GitHub repository sync | In progress |
 
+| Lab 6 | Lean Feature Prioritization | Feature-Requirement mapping, Feature-Value metrics matrix | Completed |
+
+| Lab 7 | High-Fidelity Prototype & Experiment Design | Clickable high-fidelity walkthrough, MVP experiment script, validation template | In progress |
+
 
 ## Current Status
 
@@ -72,6 +76,8 @@ During Lab 5, the team shifted from logical architecture to visual and interface
 
 During Lab 6, the team transitioned from user interface design to backend structural planning by establishing our Feature-Requirement and Feature-Value mapping. We focused on aligning our wireframe layouts with our core functional requirements and user stories to ensure every screen directly solves a real user problem. By evaluating each feature's user and operational value, we successfully prioritized our MVP deliverables and identified areas in our admin workflow that need further refinement.
 
+During Lab 7, the team moved from internal feature mapping to external traction planning, applying Lean Analytics frameworks. We built an interactive high-fidelity prototype that simulates the entire lifecycle of a reservation—from browsing availability and selecting a time slot to completing the booking form and checking the reservation status. Concurrently, we formulated an MVP validation experiment framework to track user interaction, ensuring we gather maximum validated learning with minimum operational effort.
+
 ## Next Step
 
-Moving into Lab 7, the team moved from internal feature mapping to external traction planning, applying Lean Analytics frameworks. Focusing on the core concept of "stickiness before scale," we are defining our venture’s One Metric That Matters (OMTM)—specifically tracking the percentage of repeat student room bookings weekly. The team is designing a structured validation experiment to track user interaction, ensuring we gather maximum validated learning with minimum operational effort before writing code.
+Moving into Lab 8, the team will execute our MVP validation experiment and analyze user testing feedback. Following the approach outlined in the Smart Campus Lost-and-Found System case study, we will run user tests to see if students can easily find rooms, select time slots, and track booking statuses. We will then build our own equivalent project data files under /data/validation-results-sample.csv and /data/validation-results-analytics.xlsx to systematically track user success rates and identify workflow friction points before final development.
