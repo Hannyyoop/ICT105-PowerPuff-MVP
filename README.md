@@ -54,9 +54,10 @@ Possible technologies:
 | Lab 2 | Opportunity Scanning | Opportunity scan document, selected project decision document | Completed |
 | Lab 3 | Requirements & User Modeling | Use case diagrams, user workflow/activity diagrams, User Requirements Specification (URS) | Completed |
 | Lab 4 | MVP Architecture & Flowcharts | Core MVP feature matrix, detailed system flowchart diagram | Completed |
-| Lab 5 | UX/UI Design & Wireframing | Low-/mid-fidelity wireframes, interface screen layouts, GitHub repository synchronization | In Progress |
+| Lab 5 | UX/UI Design & Wireframing | Low-/mid-fidelity wireframes, interface screen layouts, GitHub repository synchronization | Completed |
 | Lab 6 | Lean Feature Prioritization | Feature–requirement mapping, feature–value metrics matrix | Completed |
-| Lab 7 | High-Fidelity Prototype & Experiment Design | Clickable high-fidelity walkthrough, MVP experiment script, validation template | In Progress |
+| Lab 7 | High-Fidelity Prototype & Experiment Design | Clickable high-fidelity walkthrough, MVP experiment script, validation template | Completed |
+| Lab 8 | Customer Validation & Analytics | Clean validation dataset, Power BI dashboard report (`.pbix`), dashboard screenshots, analytical insights (`analytics-insights.md`), and final MVP decision (`mvp-decision.md`) | Completed[cite: 1] |
 
 
 ## Current Status
@@ -75,6 +76,8 @@ During Lab 6, the team transitioned from user interface design to backend struct
 
 During Lab 7, the team moved from internal feature mapping to external traction planning, applying Lean Analytics frameworks. We built an interactive high-fidelity prototype that simulates the entire lifecycle of a reservation—from browsing availability and selecting a time slot to completing the booking form and checking the reservation status. Concurrently, we formulated an MVP validation experiment framework to track user interaction, ensuring we gather maximum validated learning with minimum operational effort.
 
+During Lab 8, the team transitioned from high-fidelity prototyping to customer validation and data-driven analysis. We imported our raw user testing feedback into Power BI, creating custom DAX measures to calculate critical performance metrics such as Task Success Rate, Average Ease of Use, Confusion Rate, and Interest Rate[cite: 1]. This allowed us to build an interactive, multi-dimensional validation dashboard equipped with KPI cards, behavioral charts, and demographic slicers to isolate specific user friction points[cite: 1]. Our findings, including a formalized decision on whether our MVP is validated or requires further design revisions, were systematically documented under our `/data/` and `/docs/` directories to anchor our next engineering phases in concrete empirical evidence[cite: 1].
+
 ## Next Step
 
-Moving into Lab 8, the team will execute our MVP validation experiment and analyze user testing feedback. Following the approach outlined in the Smart Campus Lost-and-Found System case study, we will run user tests to see if students can easily find rooms, select time slots, and track booking statuses. We will then build our own equivalent project data files under /data/validation-results-sample.csv and /data/validation-results-analytics.xlsx to systematically track user success rates and identify workflow friction points before final development.
+Moving into Lab 9, the team will transition from product validation to financial feasibility and unit economics. We will outline our cost structures (such as hosting, server maintenance, and administrative overhead) and determine our pricing or monetization strategies. By setting clear financial assumptions, we will draft a 3-year financial model and calculate our break-even points, ensuring that the BookUP system is not only a functional utility but also a viable and financially sustainable venture.
