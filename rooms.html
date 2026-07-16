@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Available Rooms</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="rooms-page">
+  <nav>
+    <h2>Room Booking System</h2>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+
+      <li><a href="rooms.html">Rooms</a></li>
+
+      <li><a href="my-booking.html">My Bookings</a></li>
+    </ul>
+  </nav>
+
+  <div class="rooms-container">
+    <h1 class="rooms-title">Available Rooms</h1>
+
+    <p class="rooms-subtitle">Choose a room below to make a booking.</p>
+    <div class="room-search">
+
+      <input type="text" id="searchRoom" class="room-search-input" placeholder="🔍 Search by room name or location...">
+
+      <button class="room-search-btn" id="searchBtn">
+        Search
+      </button>
+
+    </div>
+    <div class="rooms-grid"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
