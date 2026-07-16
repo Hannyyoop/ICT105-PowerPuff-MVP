@@ -1,120 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Rooms</title>
 
-<title>Available Rooms</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body class="rooms-page">
+  <nav>
+    <h2>Room Booking System</h2>
 
-<nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
 
-<h2>Room Booking System</h2>
+      <li><a href="rooms.html">Rooms</a></li>
 
-<ul class="nav-links">
+      <li><a href="my-booking.html">My Bookings</a></li>
+    </ul>
+  </nav>
 
-<li><a href="index.html">Home</a></li>
+  <div class="rooms-container">
+    <h1 class="rooms-title">Available Rooms</h1>
 
-<li><a href="rooms.html">Rooms</a></li>
+    <p class="rooms-subtitle">Choose a room below to make a booking.</p>
+    <div class="room-search">
 
-<li><a href="my-booking.html">My Bookings</a></li>
+      <input type="text" id="searchRoom" class="room-search-input" placeholder="🔍 Search by room name or location...">
 
-</ul>
+      <button class="room-search-btn" id="searchBtn">
+        Search
+      </button>
 
-</nav>
+    </div>
+    <div class="rooms-grid"></div>
+  </div>
 
-<div class="rooms-container">
-
-<h1 class="rooms-title">
-Available Rooms
-</h1>
-
-<p class="rooms-subtitle">
-Choose a room below to make a booking.
-</p>
-
-<div class="rooms-grid">
-
-<div class="room-card">
-
-<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800"
-class="room-image">
-
-<div class="room-info">
-
-<h2>Room A101</h2>
-
-<p>Capacity: 20 Students</p>
-
-<p>Location: Building A</p>
-
-<p>Status: Available</p>
-
-</div>
-
-<a href="booking.html" class="book-btn">
-Book Room
-</a>
-
-</div>
-
-<div class="room-card">
-
-<img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800"
-class="room-image">
-
-<div class="room-info">
-
-<h2>Room A102</h2>
-
-<p>Capacity: 30 Students</p>
-
-<p>Location: Building A</p>
-
-<p>Status: Available</p>
-
-</div>
-
-<a href="booking.html" class="book-btn">
-Book Room
-</a>
-
-</div>
-
-<div class="room-card">
-
-<img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?w=800"
-class="room-image">
-
-<div class="room-info">
-
-<h2>Room B201</h2>
-
-<p>Capacity: 25 Students</p>
-
-<p>Location: Building B</p>
-
-<p>Status: Available</p>
-
-</div>
-
-<a href="booking.html" class="book-btn">
-Book Room
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
+
 </html>
