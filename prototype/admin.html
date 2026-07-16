@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Rooms</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="admin-page">
+
+    <nav>
+
+        <h2>Room Booking System</h2>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="admin.html">Manage Rooms</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="admin-container">
+
+        <h1 class="admin-title">Manage Rooms</h1>
+
+        <p class="admin-subtitle">
+            Add, edit, or remove rooms available for booking.
+        </p>
+
+        <form id="roomForm" class="admin-form">
+
+            <input type="text" placeholder="Room Name (e.g. Room A101)" required>
+
+            <input type="number" placeholder="Capacity" required>
+
+            <input type="text" placeholder="Location" required>
+
+            <button type="submit" class="admin-add-btn">
+                Add Room
+            </button>
+
+        </form>
+
+        <table class="admin-table">
+
+            <thead>
+
+                <tr>
+                    <th>Room</th>
+                    <th>Capacity</th>
+                    <th>Location</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>Room A101</td>
+                    <td>20</td>
+                    <td>Building A</td>
+                    <td> <select class="room-status">
+                            <option selected>Available</option>
+                            <option>Booked</option>
+                            <option>Maintenance</option>
+                        </select></td>
+
+                    <td>
+
+                        <button class="edit-btn">
+                            Edit
+                        </button>
+
+                        <button class="delete-btn">
+                            Delete
+                        </button>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Room B201</td>
+                    <td>25</td>
+                    <td>Building B</td>
+                    <td> <select class="room-status">
+                            <option selected>Available</option>
+                            <option>Booked</option>
+                            <option>Maintenance</option>
+                        </select></td>
+
+                    <td>
+
+                        <button class="edit-btn">
+                            Edit
+                        </button>
+
+                        <button class="delete-btn">
+                            Delete
+                        </button>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Room C301</td>
+                    <td>40</td>
+                    <td>Building C</td>
+                    <td> <select class="room-status">
+                            <option selected>Available</option>
+                            <option>Booked</option>
+                            <option>Pending</option>
+                        </select></td>
+
+                    <td>
+
+                        <button class="edit-btn">
+                            Edit
+                        </button>
+
+                        <button class="delete-btn">
+                            Delete
+                        </button>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

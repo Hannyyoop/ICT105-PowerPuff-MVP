@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Room</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="booking-page">
+
+<nav>
+
+    <h2>Room Booking System</h2>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="my-bookings.html">My Bookings</a></li>
+    </ul>
+
+</nav>
+
+<div class="booking-container">
+
+    <h1 class="booking-title">
+        Book a Room
+    </h1>
+
+    <p class="booking-subtitle">
+        Complete the form below to reserve a room.
+    </p>
+
+    <form id="bookingForm" class="booking-form">
+
+        <label>Student Name</label>
+        <input
+        type="text"
+        placeholder="Enter your full name"
+        required>
+
+        <label>Select Room</label>
+
+        <select required>
+
+            <option value="">Choose a Room</option>
+
+            <option>Room A101</option>
+
+            <option>Room A102</option>
+
+            <option>Room B201</option>
+
+            <option>Room C301</option>
+
+            <option>Room D105</option>
+
+            <option>Room E201</option>
+
+        </select>
+
+        <label>Booking Date</label>
+
+        <input
+        type="date"
+        required>
+
+        <div class="booking-time">
+
+            <div>
+
+                <label>Start Time</label>
+
+                <input
+                type="time"
+                required>
+
+            </div>
+
+            <div>
+
+                <label>End Time</label>
+
+                <input
+                type="time"
+                required>
+
+            </div>
+
+        </div>
+
+        <label>Purpose of Booking</label>
+
+        <textarea
+        rows="5"
+        placeholder="Example: Group Study, Project Meeting..."
+        required></textarea>
+
+        <div class="booking-buttons">
+
+            <a
+            href="rooms.html"
+            class="cancel-btn">
+                Cancel
+            </a>
+
+            <button
+            type="submit"
+            class="confirm-btn">
+
+                Confirm Booking
+
+            </button>
+
+        </div>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
