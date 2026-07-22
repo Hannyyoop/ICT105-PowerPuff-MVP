@@ -84,4 +84,41 @@ During Lab 9, the team transitioned from product validation data to financial an
 
 Moving into Lab 10, the team will transition from baseline financial modeling to implementing targeted analytics frameworks. We will select our One Metric That Matters (OMTM) to isolate the single most critical number driving our startup's current lifecycle stage[cite: 1]. By drawing a concrete line in the sand for our target growth goals and updating our repository with our updated startup finance projections and analytics frameworks, we will ensure that our upcoming engineering pushes are entirely focused on moving a single high-impact metric[cite: 1].
 
+# Lab 10 - MVP Implementation Sprint 1
 
+### Sprint Goal
+
+Our goal in Lab 10 is to begin building the first working version of the Study Room Booking System based on the approved requirements, wireframes, technical architecture, and responsible-design checks.
+
+### Implementation Approach
+
+- Platform/tools: HTML, CSS, JavaScript
+- Backend status: Frontend prototype (no backend implemented)
+- Data storage/simulation: Sample booking data using JavaScript/CSV
+- Prototype link or folder: /prototype/
+
+### Features Implemented in Sprint 1
+
+| Feature | Requirement ID | Status | Evidence |
+|---|---|---|---|
+| Homepage | FR-01 | Completed | homepage.html, homepage.png |
+| Input form | FR-03 | Completed | input-form.html, input-form.png |
+| Record list | FR-05 | Completed | record-list.html, record-list.png |
+| Search/filter | FR-06 | Completed | Search function demonstration |
+| Detail view | FR-07 | Completed | detail-view.html, detail-view.png |
+| Status tracking | FR-08 | Completed | Status labels and booking status display |
+| Admin view | FR-09 | Completed | admin-view.html, admin-view.png |
+| Dashboard | FR-12 | Completed | dashboard.html, dashboard.png |
+
+### Screenshots
+
+- Homepage: <img width="1052" height="687" alt="image" src="https://github.com/user-attachments/assets/29538c73-2d91-41b2-947c-4a46b82c1f1f" />
+- Input form: <img width="848" height="853" alt="image" src="https://github.com/user-attachments/assets/411afd5f-0f9f-4b20-99e2-edd3086ca834" />
+- Record list: <img width="1431" height="753" alt="image" src="https://github.com/user-attachments/assets/93c3a680-d255-40cb-aaac-679ca092d451" />
+- Detail view: <img width="1351" height="567" alt="image" src="https://github.com/user-attachments/assets/d71d93ed-c771-4ff1-810f-ed1fc3aa7824" />
+- Admin/status view: <img width="1362" height="766" alt="image" src="https://github.com/user-attachments/assets/f901fba5-a752-4a89-a893-8fdcc588c487" />
+
+
+### Team Contribution
+
+All group members contributed to the same GitHub repository. Team members worked together to design the interface, develop the homepage, booking form, booking list, search and filter function, detail view, booking status tracking, admin page, dashboard, and project documentation. Each member committed their work to the shared GitHub repository.
