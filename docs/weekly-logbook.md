@@ -66,34 +66,47 @@ Our next steps are to execute our Lab 10 deliverables by selecting our One Metri
 
 ## What We Built Today
 
-- Built the homepage, study room booking form, and booking record list.
-- Added search/filter, booking status tracking, and navigation between pages.
-- Created the admin dashboard to manage bookings and connected all screens using sample booking data.
-
-  ## Requirement IDs Addressed
+- Built the homepage, study room booking form, and booking record list for the Study Room Booking System.
+- Implemented the search/filter function, booking detail page, booking status tracking, and admin management page.
+- Created the dashboard, connected the prototype screens, and tested the basic workflow using sample booking data.
+  
+## Requirement IDs Addressed
 
 - FR-01: Homepage and navigation
-- FR-03: Study room booking form and input validation
-- FR-05: Booking list, room details, search/filter, and booking status
-
+- FR-03: Study room booking form
+- FR-05: Booking record list
+- FR-06: Search and filter
+- FR-07: Booking detail view
+- FR-08: Booking status tracking
+- FR-09: Admin management
+- FR-12: Dashboard summary
+  
 ## Contribution by Members
 
 | Member | Contribution | Evidence |
 |---|---|---|
-| Member 1 | Designed the homepage and created the user interface. | <img width="1052" height="687" alt="image" src="https://github.com/user-attachments/assets/9dc37c33-3d6b-41e1-8ba0-f345a11aed10" />|
-| Member 2 | Developed the booking form and input validation. |<img width="848" height="853" alt="image" src="https://github.com/user-attachments/assets/4ce275b2-732b-4abc-8c21-813fd3569f60" />|
-| Member 3 | Created the booking record list and added sample booking data. | <img width="1431" height="753" alt="image" src="https://github.com/user-attachments/assets/9d0e40ed-c33c-42f3-bfe6-1066619ce828" />|
+| Member 1 | Designed the homepage, booking form, and navigation. | GitHub commit, Homepage screenshot |
+| Member 2 | Developed the booking record list, search/filter, and detail view. | GitHub commit, Record list screenshot |
+| Member 3 | Created the admin page, dashboard, status tracking, and updated the documentation. | GitHub commit, Admin screenshot |
+
+## Screenshots Added
+<img width="1362" height="766" alt="image" src="https://github.com/user-attachments/assets/4baea189-6a76-492f-b86d-13c7a7865420" />
+<img width="1351" height="567" alt="image" src="https://github.com/user-attachments/assets/228bae01-4d6b-426e-8ab4-451866b0d933" />
+<img width="1052" height="687" alt="image" src="https://github.com/user-attachments/assets/beff7a05-5bcd-4436-a719-3c6b65ac0c5a" />
+<img width="848" height="853" alt="image" src="https://github.com/user-attachments/assets/19653c2d-c8fd-4581-8867-86900a8a535d" />
+<img width="1431" height="753" alt="image" src="https://github.com/user-attachments/assets/d4cd2da2-99c2-4326-8232-dce1b38e631e" />
+
 
 ## Problems Faced
 
-- Designing the booking form to match the approved wireframe.
-- Organizing the sample booking data in the record list.
-- Ensuring navigation worked correctly between the homepage and booking pages.
+- Designing a user-friendly interface that matched the approved wireframes.
+- Ensuring navigation worked correctly between all pages.
+- Organizing sample booking data and displaying booking status correctly.
+- Testing all features to ensure they worked as expected.
+  
+ ## Plan for Next Lab
 
-  ## Plan for Next Lab
-
-- Create the booking detail page.
-- Develop the admin page for managing bookings.
-- Add search and filter functions.
-- Implement booking status tracking.
-- Continue improving the user interface and functionality.
+- Improve the user interface based on feedback.
+- Fix bugs and improve system performance.
+- Enhance form validation and booking workflow.
+- Prepare the prototype for usability testing and the next implementation sprint.
