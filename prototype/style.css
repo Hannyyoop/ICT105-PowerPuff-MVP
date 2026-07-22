@@ -422,7 +422,7 @@ nav{
     background:#f5f9ff;
 }
 
-.status{
+.room-status{
 
     color:white;
 
@@ -433,9 +433,15 @@ nav{
     font-size:14px;
 
     font-weight:bold;
+    color:black;
 }
 
 .confirmed{
+
+    background:#28a745;
+}
+
+.booked{
 
     background:#28a745;
 }
@@ -515,7 +521,7 @@ nav{
 
     border-radius:8px;
 } */
-#roomForm .admin-form select{
+#roomTableBody select{
 
     width:100%;
 
@@ -536,12 +542,12 @@ nav{
     transition:0.3s;
 }
 
-#roomForm .admin-form select:hover{
+#roomTableBody select:hover{
 
     border-color:#4a90e2;
 }
 
-#roomForm .admin-form select:focus{
+#roomTableBody select:focus{
 
     border-color:#4a90e2;
 
@@ -767,5 +773,93 @@ nav{
 .dashboard-table tr:hover{
 
     background:#f5f9ff;
+}
+
+/* Pagination */
+.pagination{
+
+    margin-top:30px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.pagination button{
+
+    padding:10px 20px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    background:#3b82f6;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+.pagination button:hover{
+
+    background:#2563eb;
+
+}
+
+#pageInfo{
+
+    font-weight:bold;
+
+}
+
+/* Booking Request */
+.approve-btn,
+.reject-btn {
+
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 3px;
+
+}
+
+
+.approve-btn {
+
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+
+.reject-btn {
+
+    background-color: #e74c3c;
+    color: white;
+
+}
+
+
+.approve-btn:hover {
+
+    opacity: 0.8;
+
+}
+
+
+.reject-btn:hover {
+
+    opacity: 0.8;
+
 }
 

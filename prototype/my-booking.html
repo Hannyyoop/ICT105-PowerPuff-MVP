@@ -37,7 +37,7 @@
         <thead>
 
         <tr>
-
+            <th>No.</th>
             <th>Room</th>
             <th>Date</th>
             <th>Time</th>
@@ -49,66 +49,19 @@
 
         </thead>
 
-        <tbody>
+      <tbody id="bookingTableBody">
 
-        <tr>
-
-            <td>Room A101</td>
-
-            <td>10 July 2026</td>
-
-            <td>09:00 - 11:00</td>
-
-            <td>Group Study</td>
-
-            <td>
-                <span class="status confirmed">
-                    Confirmed
-                </span>
-            </td>
-
-            <td>
-
-                <button class="cancel-booking-btn">
-                    Cancel
-                </button>
-
-            </td>
-
-        </tr>
-
-        <tr>
-
-            <td>Room C301</td>
-
-            <td>15 July 2026</td>
-
-            <td>13:00 - 15:00</td>
-
-            <td>Project Meeting</td>
-
-            <td>
-
-                <span class="status pending">
-                    Pending
-                </span>
-
-            </td>
-
-            <td>
-
-                <button class="cancel-booking-btn">
-                    Cancel
-                </button>
-
-            </td>
-
-        </tr>
-
-        </tbody>
-
+</tbody>
     </table>
+<div class="pagination">
 
+    <button id="bookingPrevPage">Previous</button>
+
+    <span id="bookingPageInfo"></span>
+
+    <button id="bookingNextPage">Next</button>
+
+</div>
 </div>
 
 <script src="script.js"></script>

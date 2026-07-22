@@ -16,9 +16,12 @@
         <h2>Room Booking System</h2>
 
         <ul class="nav-links">
+
             <li><a href="index.html">Home</a></li>
-            <li><a href="admin.html">Manage Rooms</a></li>
             <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="booking-request.html">Booking Requests</a></li>
+            <li><a href="admin.html">Manage Rooms</a></li>
+
         </ul>
 
     </nav>
@@ -33,11 +36,11 @@
 
         <form id="roomForm" class="admin-form">
 
-            <input type="text" placeholder="Room Name (e.g. Room A101)" required>
+            <input type="text" id="roomName" placeholder="Room Name (e.g. Room A101)" required>
 
-            <input type="number" placeholder="Capacity" required>
+            <input type="number" id="roomCapacity" placeholder="Capacity" required>
 
-            <input type="text" placeholder="Location" required>
+            <input type="text" id="roomLocation" placeholder="Location" required>
 
             <button type="submit" class="admin-add-btn">
                 Add Room
@@ -50,6 +53,7 @@
             <thead>
 
                 <tr>
+                    <th>No.</th>
                     <th>Room</th>
                     <th>Capacity</th>
                     <th>Location</th>
@@ -60,10 +64,19 @@
             </thead>
 
             <tbody id="roomTableBody">
-            
+
             </tbody>
 
         </table>
+        <div class="pagination">
+
+            <button id="prevPage">Previous</button>
+
+            <span id="pageInfo"></span>
+
+            <button id="nextPage">Next</button>
+
+        </div>
 
     </div>
 
