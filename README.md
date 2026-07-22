@@ -58,7 +58,7 @@ Possible technologies:
 | Lab 6 | Lean Feature Prioritization | Feature–requirement mapping, feature–value metrics matrix | Completed |
 | Lab 7 | High-Fidelity Prototype & Experiment Design | Clickable high-fidelity walkthrough, MVP experiment script, validation template | Completed |
 | Lab 8 | Customer Validation & Analytics | Clean validation dataset, Power BI dashboard report (`.pbix`), dashboard screenshots, analytical insights (`analytics-insights.md`), and final MVP decision (`mvp-decision.md`) | Completed[cite: 1] |
-
+| Lab 9 | Financial Management & Startup Metrics | Startup economics model, burn rate and runway calculations, AARRR framework mapping | Completed[cite: 1] |
 
 ## Current Status
 
@@ -78,6 +78,8 @@ During Lab 7, the team moved from internal feature mapping to external traction 
 
 During Lab 8, the team transitioned from high-fidelity prototyping to customer validation and data-driven analysis. We imported our raw user testing feedback into Power BI, creating custom DAX measures to calculate critical performance metrics such as Task Success Rate, Average Ease of Use, Confusion Rate, and Interest Rate[cite: 1]. This allowed us to build an interactive, multi-dimensional validation dashboard equipped with KPI cards, behavioral charts, and demographic slicers to isolate specific user friction points[cite: 1]. Our findings, including a formalized decision on whether our MVP is validated or requires further design revisions, were systematically documented under our `/data/` and `/docs/` directories to anchor our next engineering phases in concrete empirical evidence[cite: 1].
 
+During Lab 9, the team transitioned from product validation data to financial and operational planning by evaluating our startup economics and performance metrics[cite: 1]. We focused on defining actionable metrics rather than vanity counts, mapping our progress to the AARRR funnel framework and Eric Ries's Engines of Growth to focus squarely on customer retention (the sticky engine)[cite: 1]. Concurrently, we established our financial foundation by calculating our burn rate and runway to project a clear path toward cash break-even, ensuring the project remains adequately capitalized[cite: 1].
+
 ## Next Step
 
-Moving into Lab 9, the team will transition from product validation to financial feasibility and unit economics. We will outline our cost structures (such as hosting, server maintenance, and administrative overhead) and determine our pricing or monetization strategies. By setting clear financial assumptions, we will draft a 3-year financial model and calculate our break-even points, ensuring that the BookUP system is not only a functional utility but also a viable and financially sustainable venture.
+Moving into Lab 10, the team will transition from baseline financial modeling to implementing targeted analytics frameworks. We will select our One Metric That Matters (OMTM) to isolate the single most critical number driving our startup's current lifecycle stage[cite: 1]. By drawing a concrete line in the sand for our target growth goals and updating our repository with our updated startup finance projections and analytics frameworks, we will ensure that our upcoming engineering pushes are entirely focused on moving a single high-impact metric[cite: 1].
