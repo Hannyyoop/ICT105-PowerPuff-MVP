@@ -61,3 +61,39 @@ In Lab 8, we transitioned from high-fidelity prototyping to customer validation 
 In Lab 9, we transitioned from user validation data to financial and operational planning by evaluating our startup economics and performance metrics. We focused on defining actionable metrics rather than vanity counts, mapping our progress to the AARRR funnel framework and Eric Ries's Engines of Growth to focus squarely on customer retention (the sticky engine). Concurrently, we established our financial foundation by calculating our burn rate and runway to project a clear path toward cash break-even, ensuring the project remains adequately capitalized.
 
 Our next steps are to execute our Lab 10 deliverables by selecting our One Metric That Matters (OMTM), drawing a concrete line in the sand for our target growth goals, and updating our repository with our updated startup finance projections and analytics frameworks. This activity helped us move from product design to understanding the core business metrics required to build a sustainable and viable IT venture.
+
+### Lab 10 Reflection
+
+## What We Built Today
+
+- Built the homepage, study room booking form, and booking record list.
+- Added search/filter, booking status tracking, and navigation between pages.
+- Created the admin dashboard to manage bookings and connected all screens using sample booking data.
+
+  ## Requirement IDs Addressed
+
+- FR-01: Homepage and navigation
+- FR-03: Study room booking form and input validation
+- FR-05: Booking list, room details, search/filter, and booking status
+
+## Contribution by Members
+
+| Member | Contribution | Evidence |
+|---|---|---|
+| Member 1 | Designed the homepage and created the user interface. | <img width="1052" height="687" alt="image" src="https://github.com/user-attachments/assets/9dc37c33-3d6b-41e1-8ba0-f345a11aed10" />|
+| Member 2 | Developed the booking form and input validation. |<img width="848" height="853" alt="image" src="https://github.com/user-attachments/assets/4ce275b2-732b-4abc-8c21-813fd3569f60" />|
+| Member 3 | Created the booking record list and added sample booking data. | <img width="1431" height="753" alt="image" src="https://github.com/user-attachments/assets/9d0e40ed-c33c-42f3-bfe6-1066619ce828" />|
+
+## Problems Faced
+
+- Designing the booking form to match the approved wireframe.
+- Organizing the sample booking data in the record list.
+- Ensuring navigation worked correctly between the homepage and booking pages.
+
+  ## Plan for Next Lab
+
+- Create the booking detail page.
+- Develop the admin page for managing bookings.
+- Add search and filter functions.
+- Implement booking status tracking.
+- Continue improving the user interface and functionality.
