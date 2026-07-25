@@ -59,6 +59,9 @@ Possible technologies:
 | Lab 7 | High-Fidelity Prototype & Experiment Design | Clickable high-fidelity walkthrough, MVP experiment script, validation template | Completed |
 | Lab 8 | Customer Validation & Analytics | Clean validation dataset, Power BI dashboard report (`.pbix`), dashboard screenshots, analytical insights (`analytics-insights.md`), and final MVP decision (`mvp-decision.md`) | Completed[cite: 1] |
 | Lab 9 | Financial Management & Startup Metrics | Startup economics model, burn rate and runway calculations, AARRR framework mapping | Completed[cite: 1] |
+| Lab 10 | MVP Implementation Sprint 1 | Initial working prototype, core pages (homepage, booking form, record list, admin view, dashboard summary) | Completed |
+| Lab 11 | MVP Implementation Sprint 2 & Startup Metrics | Enhanced dynamic data storage (`localStorage`), real-time Product Analytics Dashboard, status updates, and testing documentation | Completed |
+
 
 ## Current Status
 
@@ -80,9 +83,12 @@ During Lab 8, the team transitioned from high-fidelity prototyping to customer v
 
 During Lab 9, the team transitioned from product validation data to financial and operational planning by evaluating our startup economics and performance metrics[cite: 1]. We focused on defining actionable metrics rather than vanity counts, mapping our progress to the AARRR funnel framework and Eric Ries's Engines of Growth to focus squarely on customer retention (the sticky engine)[cite: 1]. Concurrently, we established our financial foundation by calculating our burn rate and runway to project a clear path toward cash break-even, ensuring the project remains adequately capitalized[cite: 1].
 
+During Lab 10, the team executed Sprint 1 of the MVP implementation, building the first full working version of the Study Room Booking System using HTML, CSS, and JavaScript. We completed all core screens including the homepage, study room booking form, booking record list, detail view, admin management page, and dashboard summary.
+
+During Lab 11, the team advanced into Sprint 2 of implementation by improving dynamic data handling and integrating real-time product metrics into the application. We implemented dynamic data persistence using `localStorage` / `JSON` to ensure seamless interaction between the user booking form, admin status management, and live system metrics. An operational dashboard tracking room utilization rates, pending requests, and total bookings was built, along with comprehensive user journey testing documentation.
 ## Next Step
 
-Moving into Lab 10, the team will transition from baseline financial modeling to implementing targeted analytics frameworks. We will select our One Metric That Matters (OMTM) to isolate the single most critical number driving our startup's current lifecycle stage[cite: 1]. By drawing a concrete line in the sand for our target growth goals and updating our repository with our updated startup finance projections and analytics frameworks, we will ensure that our upcoming engineering pushes are entirely focused on moving a single high-impact metric[cite: 1].
+Moving into Lab 12, the team will focus on conducting comprehensive end-to-end user testing across the updated prototype to discover remaining friction points. We will finalize all technical documentation including `/docs/feature-implementation-status.md`, `/docs/startup-metrics.md`, and `/docs/prototype-testing-notes.md`, refine cross-device UI responsiveness, and begin synthesizing our findings into the final project pitch deck.
 
 # Lab 10 - MVP Implementation Sprint 1
 
@@ -122,3 +128,26 @@ Our goal in Lab 10 is to begin building the first working version of the Study R
 ### Team Contribution
 
 All group members contributed to the same GitHub repository. Team members worked together to design the interface, develop the homepage, booking form, booking list, search and filter function, detail view, booking status tracking, admin page, dashboard, and project documentation. Each member committed their work to the shared GitHub repository.
+
+# Lab 11 - MVP Implementation Sprint 2 and Startup Metrics
+
+### Sprint Goal
+
+Our goal in Lab 11 is to enhance the working prototype built in Lab 10 by strengthening data persistence (`localStorage` / `JSON`), connecting dynamic status updates across user and admin views, and adding live startup/product metrics to track platform usage and room utilization.
+
+### Implementation Approach
+
+- Platform/tools: HTML, CSS, JavaScript, Web Storage API (`localStorage`)
+- Backend status: Frontend-driven backend simulation with persistent storage
+- Data storage/simulation: Dynamic local state management synced via `localStorage` and `JSON`
+- Metrics tracking: Integrated Product Analytics & Operations Dashboard
+
+### Features Implemented in Sprint 2
+
+| Feature | Requirement ID | Status | Evidence |
+|---|---|---|---|
+| Dynamic Data Handling | FR-03, FR-05 | Completed | script.js, data.json, localStorage persistence |
+| Admin Status Controls | FR-08, FR-09 | Completed | Status update modal, admin-view.html |
+| Advanced Search & Filter | FR-06 | Completed | Filter by status, time slot, and category |
+| Product Metrics Dashboard | FR-12 | Completed | dashboard.html, live metric calculation scripts |
+| User Journey Testing | All FRs | Completed | /docs/prototype-testing-notes.md |
