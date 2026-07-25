@@ -61,3 +61,52 @@ In Lab 8, we transitioned from high-fidelity prototyping to customer validation 
 In Lab 9, we transitioned from user validation data to financial and operational planning by evaluating our startup economics and performance metrics. We focused on defining actionable metrics rather than vanity counts, mapping our progress to the AARRR funnel framework and Eric Ries's Engines of Growth to focus squarely on customer retention (the sticky engine). Concurrently, we established our financial foundation by calculating our burn rate and runway to project a clear path toward cash break-even, ensuring the project remains adequately capitalized.
 
 Our next steps are to execute our Lab 10 deliverables by selecting our One Metric That Matters (OMTM), drawing a concrete line in the sand for our target growth goals, and updating our repository with our updated startup finance projections and analytics frameworks. This activity helped us move from product design to understanding the core business metrics required to build a sustainable and viable IT venture.
+
+### Lab 10 Reflection
+
+## What We Built Today
+
+- Built the homepage, study room booking form, and booking record list for the Study Room Booking System.
+- Implemented the search/filter function, booking detail page, booking status tracking, and admin management page.
+- Created the dashboard, connected the prototype screens, and tested the basic workflow using sample booking data.
+  
+## Requirement IDs Addressed
+
+- FR-01: Homepage and navigation
+- FR-03: Study room booking form
+- FR-05: Booking record list
+- FR-06: Search and filter
+- FR-07: Booking detail view
+- FR-08: Booking status tracking
+- FR-09: Admin management
+- FR-12: Dashboard summary
+  
+## Contribution by Members
+
+| Member | Contribution | Evidence |
+|---|---|---|
+| Member 1 | Designed the homepage, booking form, and navigation. | GitHub commit, Homepage screenshot |
+| Member 2 | Developed the booking record list, search/filter, and detail view. | GitHub commit, Record list screenshot |
+| Member 3 | Created the admin page, dashboard, status tracking, and updated the documentation. | GitHub commit, Admin screenshot |
+
+## Screenshots Added
+<img width="1362" height="766" alt="image" src="https://github.com/user-attachments/assets/4baea189-6a76-492f-b86d-13c7a7865420" />
+<img width="1351" height="567" alt="image" src="https://github.com/user-attachments/assets/228bae01-4d6b-426e-8ab4-451866b0d933" />
+<img width="1052" height="687" alt="image" src="https://github.com/user-attachments/assets/beff7a05-5bcd-4436-a719-3c6b65ac0c5a" />
+<img width="848" height="853" alt="image" src="https://github.com/user-attachments/assets/19653c2d-c8fd-4581-8867-86900a8a535d" />
+<img width="1431" height="753" alt="image" src="https://github.com/user-attachments/assets/d4cd2da2-99c2-4326-8232-dce1b38e631e" />
+
+
+## Problems Faced
+
+- Designing a user-friendly interface that matched the approved wireframes.
+- Ensuring navigation worked correctly between all pages.
+- Organizing sample booking data and displaying booking status correctly.
+- Testing all features to ensure they worked as expected.
+  
+ ## Plan for Next Lab
+
+- Improve the user interface based on feedback.
+- Fix bugs and improve system performance.
+- Enhance form validation and booking workflow.
+- Prepare the prototype for usability testing and the next implementation sprint.
