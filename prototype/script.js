@@ -152,7 +152,7 @@ function renderRooms() {
 
             <td>
 
-                <select 
+                <select class="room-status"
                 data-index="${start + index}">
 
                     <option 
@@ -206,29 +206,27 @@ function renderRooms() {
 
 
 
+
 /* Update Room Status */
 
 document.addEventListener("change", function (e) {
 
-
-    if (!e.target.classList.contains("room-status"))
+    if (!e.target.classList.contains("room-status")) {
         return;
-
+    }
 
     let rooms = getRooms();
 
-
     const index = e.target.dataset.index;
 
-
+    // Update room status
     rooms[index].status = e.target.value;
 
-
+    // Save updated rooms
     saveRooms(rooms);
 
-
-    renderStudentRooms();
-
+    // Refresh admin table
+    renderRooms();
 
 });
 
