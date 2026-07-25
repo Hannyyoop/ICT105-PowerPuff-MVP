@@ -110,3 +110,37 @@ Our next steps are to execute our Lab 10 deliverables by selecting our One Metri
 - Fix bugs and improve system performance.
 - Enhance form validation and booking workflow.
 - Prepare the prototype for usability testing and the next implementation sprint.
+
+### Lab 11 Reflection
+
+## What We Built Today
+
+- Improved the Study Room Booking System prototype by enhancing data handling and integrating real-time startup/product metrics.
+- Strengthened backend data simulation using structured dynamic storage (`localStorage` / `JSON`) to handle persistent room availability, active bookings, and status updates.
+- Built an integrated Product Analytics & Operations Dashboard to track real-time usage, active reservations, peak booking hours, and room utilization rates.
+- Enhanced the Admin Management view to allow instant status updates (e.g., Pending, Confirmed, Cancelled, Completed) with automatic metric synchronization across the system.
+
+## Requirement IDs Addressed
+
+- **FR-01**: Homepage and navigation (Enhanced dynamic status feedback)
+- **FR-03**: Study room booking form (Added persistent storage and error validation)
+- **FR-05**: Booking record list (Added dynamic data updates)
+- **FR-06**: Search and filter (Refined search by category, time slot, and booking status)
+- **FR-07**: Booking detail view (Linked live reservation states)
+- **FR-08**: Booking status tracking (Real-time status updates via persistent storage)
+- **FR-09**: Admin management (Added status update controls and operational overrides)
+- **FR-12**: Dashboard summary & Startup Metrics (Implemented live key metrics and utilization tracking)
+
+
+## Problems Faced
+
+- Ensuring data state consistency across the dashboard, user booking lists, and admin management screens when updates were made.
+- Structuring key product metrics (such as room utilization rates and pending vs. confirmed ratios) accurately using simulated time-series data.
+- Handling edge cases in user inputs during user-journey testing, such as overlapping room time slots and missing booking fields.
+
+## Plan for Next Lab
+
+- Conduct end-to-end user testing to identify remaining usability friction points across the entire booking lifecycle.
+- Finalize documentation, including `/docs/feature-implementation-status.md`, `/docs/startup-metrics.md`, and `/docs/prototype-testing-notes.md`.
+- Resolve remaining minor bugs and refine UI responsiveness across desktop and mobile views.
+- Update the main GitHub repository README and prepare the final pitch/demonstration deck for the semester project showcase.
