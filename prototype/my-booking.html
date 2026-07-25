@@ -1,42 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Bookings</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body class="bookings-page">
+  <body class="bookings-page">
+    <nav>
+      <h2>Room Booking System</h2>
 
-<nav>
-
-    <h2>Room Booking System</h2>
-
-    <ul class="nav-links">
+      <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="rooms.html">Rooms</a></li>
         <li><a href="my-booking.html">My Bookings</a></li>
-    </ul>
+      </ul>
+    </nav>
 
-</nav>
+    <div class="bookings-container">
+      <h1 class="bookings-title">My Bookings</h1>
 
-<div class="bookings-container">
+      <p class="bookings-subtitle">View and manage your room reservations.</p>
 
-    <h1 class="bookings-title">
-        My Bookings
-    </h1>
-
-    <p class="bookings-subtitle">
-        View and manage your room reservations.
-    </p>
-
-    <table class="booking-table">
-
+      <table class="booking-table">
         <thead>
-
-        <tr>
+          <tr>
             <th>No.</th>
             <th>Room</th>
             <th>Date</th>
@@ -44,27 +34,20 @@
             <th>Purpose</th>
             <th>Status</th>
             <th>Action</th>
-
-        </tr>
-
+          </tr>
         </thead>
 
-      <tbody id="bookingTableBody">
+        <tbody id="bookingTableBody"></tbody>
+      </table>
+      <div class="pagination">
+        <button id="bookingPrevPage">Previous</button>
 
-</tbody>
-    </table>
-<div class="pagination">
+        <span id="bookingPageInfo"></span>
 
-    <button id="bookingPrevPage">Previous</button>
+        <button id="bookingNextPage">Next</button>
+      </div>
+    </div>
 
-    <span id="bookingPageInfo"></span>
-
-    <button id="bookingNextPage">Next</button>
-
-</div>
-</div>
-
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

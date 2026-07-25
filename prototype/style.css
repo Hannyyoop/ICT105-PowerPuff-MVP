@@ -147,14 +147,11 @@ nav{
     margin:15px 0 40px;
 }
 
-.rooms-grid{
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(auto-fit,minmax(300px,1fr));
-
-    gap:30px;
+.rooms-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: start;
 }
 
 .room-card{
@@ -222,6 +219,81 @@ nav{
 .book-btn:hover{
 
     background:#2563eb;
+}
+
+/* ===========================
+   ROOM SEARCH
+=========================== */
+
+.room-search {
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.room-search-input {
+    flex: 1;
+    padding: 14px 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    background-color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.room-search-input:focus {
+    border-color: #6b7280;
+    box-shadow: 0 0 0 3px rgba(107, 114, 128, 0.15);
+}
+
+.room-search-input::placeholder {
+    color: #9ca3af;
+}
+
+.room-search-btn {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.room-search-btn:hover {
+    background-color: #555555;
+    transform: translateY(-1px);
+}
+
+.room-search-btn:active {
+    transform: translateY(0);
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .room-search {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .room-search-input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .room-search-btn {
+        width: 100%;
+    }
+
 }
 
 /* ===========================
@@ -451,6 +523,12 @@ nav{
     background:#ffc107;
 
     color:black;
+}
+.rejected{
+
+    background:#dc3545;
+
+
 }
 
 .cancel-booking-btn{
