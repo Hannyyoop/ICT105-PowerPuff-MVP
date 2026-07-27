@@ -941,3 +941,151 @@ nav{
 
 }
 
+/* ========================================
+   EDIT ROOM PAGE
+======================================== */
+
+/* Admin Page Background */
+.admin-edit-page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef5ff;
+    color: #333;
+    min-height: 100vh;
+}
+
+
+
+
+/* ========================================
+   EDIT ROOM CONTAINER
+======================================== */
+
+.admin-edit-page .admin-container {
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ========================================
+   PAGE TITLE
+======================================== */
+
+.admin-edit-page .admin-title {
+    margin: 0 0 10px;
+    color: #1d3557;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.admin-edit-page .admin-subtitle {
+    margin: 0 0 30px;
+    color: #777;
+    font-size: 15px;
+}
+
+
+/* ========================================
+   FORM
+======================================== */
+
+.admin-edit-page .admin-edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.admin-edit-page .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.admin-edit-page .form-group label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+}
+
+.admin-edit-page .form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 15px;
+    border: 1px solid #d6d0da;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #eef5ff;
+    color: #333;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.admin-edit-page .form-group input:focus {
+    border-color: #1d3557;
+    background-color: eef5ff;
+    box-shadow: 0 0 0 3px rgba(125, 60, 152, 0.12);
+}
+
+.admin-edit-page .form-group input::placeholder {
+    color: #aaa;
+}
+
+
+/* ========================================
+   BUTTONS
+======================================== */
+
+.admin-edit-page .booking-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.admin-edit-page .cancel-btn,
+.admin-edit-page .confirm-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border: none;
+}
+
+
+/* Cancel Button */
+.admin-edit-page .cancel-btn {
+    background-color: #eeeeee;
+    color: #555;
+}
+
+.admin-edit-page .cancel-btn:hover {
+    background-color: #dddddd;
+}
+
+
+/* Save Changes Button */
+.admin-edit-page .confirm-btn {
+    background-color: #1d3557;
+    color: white;
+}
+
+.admin-edit-page .confirm-btn:hover {
+    background-color: #1d3557;
+    transform: translateY(-1px);
+}
+
+
+
+

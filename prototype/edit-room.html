@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Edit Room</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="admin-edit-page">
+
+    <!-- Navigation -->
+    <nav>
+
+        <h2>Room Booking System</h2>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="dashboard.html">Dashboard</a>
+            </li>
+
+            <li>
+                <a href="booking-request.html">Booking Requests</a>
+            </li>
+
+            <li>
+                <a href="admin.html">Manage Rooms</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Edit Room Container -->
+    <div class="admin-container">
+
+        <h1 class="admin-title">
+            Edit Room
+        </h1>
+
+        <p class="admin-subtitle">
+            Update the room information below.
+        </p>
+
+
+        <!-- Edit Room Form -->
+        <form id="editRoomForm" class="admin-edit-form">
+
+            <div class="form-group">
+
+                <label for="editRoomName">
+                    Room Name
+                </label>
+
+                <input
+                    type="text"
+                    id="editRoomName"
+                    placeholder="Enter room name"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="editRoomCapacity">
+                    Capacity
+                </label>
+
+                <input
+                    type="number"
+                    id="editRoomCapacity"
+                    placeholder="Enter room capacity"
+                    min="1"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="editRoomLocation">
+                    Location
+                </label>
+
+                <input
+                    type="text"
+                    id="editRoomLocation"
+                    placeholder="Enter room location"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Buttons -->
+            <div class="booking-buttons">
+
+                <a
+                    href="admin.html"
+                    class="cancel-btn">
+                    Cancel
+                </a>
+
+                <button
+                    type="submit"
+                    class="confirm-btn">
+                    Save Changes
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
