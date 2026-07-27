@@ -138,9 +138,38 @@ Our next steps are to execute our Lab 10 deliverables by selecting our One Metri
 - Structuring key product metrics (such as room utilization rates and pending vs. confirmed ratios) accurately using simulated time-series data.
 - Handling edge cases in user inputs during user-journey testing, such as overlapping room time slots and missing booking fields.
 
-## Plan for Next Lab
+## Lab 12 Reflection
 
-- Conduct end-to-end user testing to identify remaining usability friction points across the entire booking lifecycle.
-- Finalize documentation, including `/docs/feature-implementation-status.md`, `/docs/startup-metrics.md`, and `/docs/prototype-testing-notes.md`.
-- Resolve remaining minor bugs and refine UI responsiveness across desktop and mobile views.
-- Update the main GitHub repository README and prepare the final pitch/demonstration deck for the semester project showcase.
+### What We Built Today
+- **Landing Page Implementation:** Built a responsive, conversion-focused landing page (`/landing-page/index.html`, `style.css`, and `script.js`) for CampusSpace that clearly communicates our value proposition, problem statement, solution, and core features based on Labs 03, 04, and 05.
+- **Go-To-Market (GTM) Strategy:** Developed a comprehensive Go-To-Market strategy (`/docs/go-to-market-plan.md`) targeting university students and international students through direct campus channels (LINE OpenChat, Facebook Student Groups, QR poster flyers in library/study zones).
+- **Channel Messaging & Copywriting:** Drafted tailored digital marketing content (`/docs/marketing-message.md`) and defined the core landing page messaging structure (`/docs/landing-page-content.md`).
+- **Acquisition & Funnel Analytics:** Established an acquisition metrics framework (`/docs/acquisition-metrics.md`) and created a tracking template (`/data/acquisition-metrics-template.csv`) to monitor top-of-funnel conversion rates, CTA click-through rates (CTR), demo launches, and interest sign-ups.
+- **Interactive CTA & Analytics Simulation:** Integrated event tracking in `script.js` to track user actions on Calls-To-Action (e.g., "Try Live Demo", "View Dashboard") and record engagement data locally.
+
+### Requirement IDs Addressed
+- **FR-01**: Homepage and navigation (Transformed into a market-facing, high-converting Landing Page)
+- **FR-02**: Available Rooms & Search (Linked through direct CTA entry points into the live prototype)
+- **FR-12**: Analytics & Metrics (Expanded to include customer acquisition metrics: Visitors, Conversion Rate, CTR, and Channel Yield)
+
+### Contribution by Members
+
+| Member | Contribution | Evidence |
+|---|---|---|
+| Member 1 | Developed the Landing Page structure (`index.html`, `style.css`, `script.js`) and captured UI screenshots. | GitHub commit, Landing Page screenshot (`/screenshots/landing-page.png`, `/screenshots/call-to-action.png`) |
+| Member 2 | Drafted the Go-To-Market plan (`go-to-market-plan.md`) and channel messaging copy (`marketing-message.md`). | GitHub commit, Markdown documentation |
+| Member 3 | Formulated the acquisition metrics framework (`acquisition-metrics.md`), created the data template (`acquisition-metrics-template.csv`), and updated the logbook & README. | GitHub commit, CSV tracking file |
+
+### Screenshots Added
+- `/screenshots/landing-page.png`: Full-page view of the responsive landing page showing the hero section, problem/solution cards, and feature grid.
+- `/screenshots/call-to-action.png`: Focused view of the main CTA section ("Try Live Demo", "View Dashboard", "Submit Booking Request").
+
+### Problems Faced
+- **Aligning Messaging with User Pain Points:** Ensuring the landing page copywriting concisely reflected the real evidence gathered in Lab 03 (e.g., paper-based forms, English language barriers) without overcrowding the hero section.
+- **Simulating Acquisition Data Realistically:** Setting up reasonable baseline metrics and realistic conversion funnel ratios (Visitor → CTA Click → Demo Active User) in the CSV tracking template for testing.
+
+### Plan for Lab 13
+- **Execute Customer Acquisition Sprint:** Deploy simulated campaign links across selected student channels to test CTA click-through rates and collect preliminary user feedback.
+- **Analyze Conversion Funnel Data:** Populate `/data/acquisition-metrics-template.csv` with simulated/actual campaign performance data to measure conversion bottlenecks.
+- **Iterate Product Pitch & Messaging:** Refine the landing page messaging and prototype workflow based on early user interaction metrics.
+- **Final Project Portfolio Consolidation:** Assemble the complete project repository, ensure all lab reflections (Labs 1–13) are up to date, and prepare the final showcase pitch deck.
