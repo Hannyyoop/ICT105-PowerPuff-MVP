@@ -61,6 +61,7 @@ Possible technologies:
 | Lab 9 | Financial Management & Startup Metrics | Startup economics model, burn rate and runway calculations, AARRR framework mapping | Completed[cite: 1] |
 | Lab 10 | MVP Implementation Sprint 1 | Initial working prototype, core pages (homepage, booking form, record list, admin view, dashboard summary) | Completed |
 | Lab 11 | MVP Implementation Sprint 2 & Startup Metrics | Enhanced dynamic data storage (`localStorage`), real-time Product Analytics Dashboard, status updates, and testing documentation | Completed |
+| Lab 12 | Landing Page & Go-To-Market Execution | Conversion Landing Page (`/landing-page/`), GTM Plan (`go-to-market-plan.md`), Channel Copywriting (`marketing-message.md`), and Acquisition Metrics Framework (`acquisition-metrics-template.csv`) | Completed |
 
 
 ## Current Status
@@ -86,9 +87,12 @@ During Lab 9, the team transitioned from product validation data to financial an
 During Lab 10, the team executed Sprint 1 of the MVP implementation, building the first full working version of the Study Room Booking System using HTML, CSS, and JavaScript. We completed all core screens including the homepage, study room booking form, booking record list, detail view, admin management page, and dashboard summary.
 
 During Lab 11, the team advanced into Sprint 2 of implementation by improving dynamic data handling and integrating real-time product metrics into the application. We implemented dynamic data persistence using `localStorage` / `JSON` to ensure seamless interaction between the user booking form, admin status management, and live system metrics. An operational dashboard tracking room utilization rates, pending requests, and total bookings was built, along with comprehensive user journey testing documentation.
+
+During Lab 12, the team transitioned to customer acquisition and GTM planning. We designed and coded a responsive, web-based Landing Page (`/landing-page/index.html`, `style.css`, `script.js`) equipped with CTA click tracking. Additionally, we published our Go-To-Market Strategy (`/docs/go-to-market-plan.md`), Channel Marketing Messages (`/docs/marketing-message.md`), and an Acquisition Metrics Framework (`/data/acquisition-metrics-template.csv`) to track top-of-funnel traffic, CTR, and demo conversions.
+
 ## Next Step
 
-Moving into Lab 12, the team will focus on conducting comprehensive end-to-end user testing across the updated prototype to discover remaining friction points. We will finalize all technical documentation including `/docs/feature-implementation-status.md`, `/docs/startup-metrics.md`, and `/docs/prototype-testing-notes.md`, refine cross-device UI responsiveness, and begin synthesizing our findings into the final project pitch deck.
+Moving into Lab 13, the team will focus on executing our acquisition sprint by collecting simulated channel data across LINE OpenChat, Facebook Student Groups, and QR poster entry points. We will populate `/data/acquisition-metrics-template.csv` with live campaign metrics, evaluate top-of-funnel conversion bottlenecks, refine our product pitch deck, and consolidate all repository assets for the final project showcase.
 
 # Lab 10 - MVP Implementation Sprint 1
 
@@ -151,3 +155,37 @@ Our goal in Lab 11 is to enhance the working prototype built in Lab 10 by streng
 | Advanced Search & Filter | FR-06 | Completed | Filter by status, time slot, and category |
 | Product Metrics Dashboard | FR-12 | Completed | dashboard.html, live metric calculation scripts |
 | User Journey Testing | All FRs | Completed | /docs/prototype-testing-notes.md |
+
+# Lab 12 - Landing Page & Go-To-Market Execution
+
+### Sprint Goal
+
+Our goal in Lab 12 is to transition from an internal working prototype to a market-facing product by building a high-converting Landing Page, formulating a targeted Go-To-Market strategy, and establishing customer acquisition tracking metrics.
+
+### Implementation Approach
+
+- **Platform/tools:** HTML5, CSS3, JavaScript ES6 (Vanilla JS)
+- **Tracking mechanism:** Client-side event tracking via `script.js` saving CTA interactions to `localStorage`
+- **Marketing Channels:** Direct student channels (LINE OpenChat, Facebook Student Groups, Library QR Code flyers)
+- **Data Template:** `/data/acquisition-metrics-template.csv`
+
+### Deliverables Implemented in Lab 12
+
+| Deliverable | File Path | Status | Purpose |
+|---|---|---|---|
+| Landing Page Markup | `/landing-page/index.html` | Completed | Market-facing landing page showcasing product value, problem/solution, and CTAs |
+| Landing Page Styles | `/landing-page/style.css` | Completed | Responsive dark-mode styling aligned with wireframe aesthetics |
+| Analytics Tracking Script | `/landing-page/script.js` | Completed | Event listener tracking CTA clicks and engagement metrics |
+| Copywriting Specification | `/docs/landing-page-content.md` | Completed | Core messaging structure aligned with Lab 03 pain points |
+| Go-To-Market Plan | `/docs/go-to-market-plan.md` | Completed | Target user personas, distribution channels, and launch campaign stages |
+| Marketing Channel Copy | `/docs/marketing-message.md` | Completed | Tailored promotion text for LINE OpenChat, QR posters, and International Student groups |
+| Acquisition Metrics Plan | `/docs/acquisition-metrics.md` | Completed | KPI definitions (CTR, Visitor traffic, Demo conversion yield) |
+| Metrics Tracking Template | `/data/acquisition-metrics-template.csv` | Completed | Structured CSV template for logging campaign performance metrics |
+
+### Screenshots
+
+- **Landing Page Overview:**  
+  `<img src="screenshots/landing-page.png" alt="Landing Page Screenshot" width="1000"/>`
+
+- **Call-To-Action (CTA) Area:**  
+  `<img src="screenshots/call-to-action.png" alt="Call-To-Action Screenshot" width="1000"/>`
