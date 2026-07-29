@@ -168,8 +168,71 @@ Our next steps are to execute our Lab 10 deliverables by selecting our One Metri
 - **Aligning Messaging with User Pain Points:** Ensuring the landing page copywriting concisely reflected the real evidence gathered in Lab 03 (e.g., paper-based forms, English language barriers) without overcrowding the hero section.
 - **Simulating Acquisition Data Realistically:** Setting up reasonable baseline metrics and realistic conversion funnel ratios (Visitor → CTA Click → Demo Active User) in the CSV tracking template for testing.
 
-### Plan for Lab 13
-- **Execute Customer Acquisition Sprint:** Deploy simulated campaign links across selected student channels to test CTA click-through rates and collect preliminary user feedback.
-- **Analyze Conversion Funnel Data:** Populate `/data/acquisition-metrics-template.csv` with simulated/actual campaign performance data to measure conversion bottlenecks.
-- **Iterate Product Pitch & Messaging:** Refine the landing page messaging and prototype workflow based on early user interaction metrics.
-- **Final Project Portfolio Consolidation:** Assemble the complete project repository, ensure all lab reflections (Labs 1–13) are up to date, and prepare the final showcase pitch deck.
+# Weekly Logbook - Lab 13
+
+## Group Name
+PowerPuff
+
+## Project Title
+BookUP (CampusSpace) - University Study Room Booking System
+
+## Date
+July 29, 2026
+
+## Members and Contributions
+
+| Member | Contribution This Lab | GitHub Evidence |
+| --- | --- | --- |
+| Nichaphat Leamviset | Formulated the User Testing Plan, compiled User Testing Results, and updated logbook documentation. | GitHub commit, `/docs/user-testing-results.md` |
+| Swe Zin Win | Structured the Demo Script and Sales Scenario, prepared system walkthrough flows, and identified final UI improvements. | GitHub commit, `/docs/demo-script.md` |
+| Htet Myat Noe | Led the user testing sessions, evaluated task completion data, and updated the final Requirement Traceability matrix. | GitHub commit, `/docs/user-testing-plan.md` |
+
+---
+
+## Work Completed
+
+- **Sales Scenario:** Defined our enterprise/campus pitch targeting university administration and library managers, emphasizing reduced staff workload, zero paper-form costs, and 24/7 bilingual booking accessibility for students.
+- **Demo Script:** Structured a step-by-step 3-minute presentation script covering:
+  1. *Hook & Problem:* Paper forms and lack of real-time room status.
+  2. *Student Journey:* Discovering available rooms, filtering time slots, and submitting a booking request.
+  3. *Admin Journey:* Managing room availability (**Available**, **Pending**, **Booked**) and approving/rejecting requests.
+  4. *Product Analytics:* Real-time room utilization dashboard.
+- **User Testing Plan:** Created a structured evaluation plan (`/docs/user-testing-plan.md`) targeting 7 testers across domestic students, international students, and campus administrators.
+- **User Testing Results:** Executed testing sessions and documented findings in `/docs/user-testing-results.md`. Achieved an 85%+ task success rate across core user flows.
+- **Final Improvement List:** Identified three minor UI fixes based on testing feedback:
+  1. Increase color contrast for Admin **Approve** (green) and **Reject** (red) buttons.
+  2. Add tooltip micro-copy for international students explaining the **Pending Approval** stage.
+  3. Include time duration tags alongside room status labels (e.g., *"Booked until 14:00"*).
+- **Screenshots:** Captured evidence of user testing runs, admin status management screens, and prototype analytics views.
+
+---
+
+## Key Decisions
+
+- **Decision on Prototype Status:** Selected **"Needs minor revision"** based on user testing evidence. The core system architecture and workflow operate reliably, requiring only targeted visual and micro-copy refinements prior to the final presentation.
+- **Role-Based Workflow Confirmation:** Confirmed the two-step reservation loop (Student Request → Admin Review & Status Toggle → Live Catalog Sync) as the permanent core model for our MVP demonstration.
+
+---
+
+## Problems Encountered
+
+- **Testing Accessibility & Edge Cases:** Some international student testers asked for clearer indicators explaining why instant confirmation wasn't available, requiring us to adjust our micro-copy helper text under the status badges.
+- **Mobile Admin Table Layout:** The admin management table caused slight horizontal scrolling on smaller mobile viewports, prompting a responsive CSS adjustment before Lab 14.
+
+---
+
+## Next Actions Before Lab 14
+
+- Implement the 3 identified UI fixes (button contrast, helper tooltips, and time-slot badges).
+- Finalize the presentation pitch deck (`/pitch/deck.pptx`) and practice the demo script.
+- Conduct a final end-to-end repository code cleanup and verify all links in `README.md`.
+
+---
+
+## Requirement Traceability Notes
+
+Which requirements need final checking before Lab 14?
+
+- **FR-02 & FR-06 (Search & Available Rooms):** Final check to ensure rooms toggled to "Booked" or "Pending" by the admin are immediately hidden or marked appropriately in the student catalog view.
+- **FR-08 & FR-09 (Status Tracking & Admin Management):** Verify that clicking "Approve" or "Reject" in the admin view instantly updates `localStorage` and reflects across the student's "My Bookings" list.
+- **FR-12 (Dashboard Summary):** Ensure live metric calculation scripts accurately aggregate total bookings, pending requests, and room utilization rates for the final demo showcase.
