@@ -62,7 +62,7 @@ Possible technologies:
 | Lab 10 | MVP Implementation Sprint 1 | Initial working prototype, core pages (homepage, booking form, record list, admin view, dashboard summary) | Completed |
 | Lab 11 | MVP Implementation Sprint 2 & Startup Metrics | Enhanced dynamic data storage (`localStorage`), real-time Product Analytics Dashboard, status updates, and testing documentation | Completed |
 | Lab 12 | Landing Page & Go-To-Market Execution | Conversion Landing Page (`/landing-page/`), GTM Plan (`go-to-market-plan.md`), Channel Copywriting (`marketing-message.md`), and Acquisition Metrics Framework (`acquisition-metrics-template.csv`) | Completed |
-
+| Lab 13 | Sales Scenario, Demo Script & User Testing | Enterprise Pitch (`sales-scenario.md`), 3-Min Walkthrough Script (`demo-script.md`), Testing Plan & Results (`user-testing-results.md`), Acquisition Campaign Analytics (`acquisition-metrics-template.csv`) | Completed |
 
 ## Current Status
 
@@ -90,9 +90,12 @@ During Lab 11, the team advanced into Sprint 2 of implementation by improving dy
 
 During Lab 12, the team transitioned to customer acquisition and GTM planning. We designed and coded a responsive, web-based Landing Page (`/landing-page/index.html`, `style.css`, `script.js`) equipped with CTA click tracking. Additionally, we published our Go-To-Market Strategy (`/docs/go-to-market-plan.md`), Channel Marketing Messages (`/docs/marketing-message.md`), and an Acquisition Metrics Framework (`/data/acquisition-metrics-template.csv`) to track top-of-funnel traffic, CTR, and demo conversions.
 
+During Lab 13, the team executed our customer acquisition sprint by evaluating simulated campaign performance across LINE OpenChat, Facebook Groups, and library QR posters. We formalized our enterprise sales pitch scenario, finalized a 3-minute demo presentation script, executed user testing sessions (achieving an 85%+ task success rate), and detailed a final UI polish list prior to showcase.
+
 ## Next Step
 
-Moving into Lab 13, the team will focus on executing our acquisition sprint by collecting simulated channel data across LINE OpenChat, Facebook Student Groups, and QR poster entry points. We will populate `/data/acquisition-metrics-template.csv` with live campaign metrics, evaluate top-of-funnel conversion bottlenecks, refine our product pitch deck, and consolidate all repository assets for the final project showcase.
+Moving into Lab 14, the team will complete the final minor UI polish (button color contrast, helper tooltips, and time-slot badges), perform a final repository audit, and deliver the live pitch presentation deck (`/pitch/deck.pptx`) for the ICT105 IT Venture Showcase.
+
 
 # Lab 10 - MVP Implementation Sprint 1
 
@@ -189,3 +192,32 @@ Our goal in Lab 12 is to transition from an internal working prototype to a mark
 
 - **Call-To-Action (CTA) Area:**  
   `<img src="screenshots/call-to-action.png" alt="Call-To-Action Screenshot" width="1000"/>`
+
+
+  ## Lab 13: Sales Scenario, Demo Script, and User Testing
+
+### Lab 13 Objective
+We prepared the final demo scenario, demo script, user testing plan, testing results, and final improvement list before Lab 14.
+
+### Files Completed
+- [x] `/docs/sales-scenario.md`
+- [x] `/docs/demo-script.md`
+- [x] `/docs/user-testing-plan.md`
+- [x] `/docs/user-testing-results.md`
+- [x] `/docs/final-improvement-list.md`
+- [x] `/docs/weekly-logbook.md`
+- [x] `/screenshots/demo-flow.png`
+- [x] `/screenshots/user-testing-evidence.png`
+
+### Prototype / Demo Link
+[BookUP (CampusSpace) Live Demo](https://hannyyoop.github.io/ICT105-PowerPuff-MVP/prototype/index.html)
+
+### Final Preparation Status
+**Status:** Needs Minor Revision (85%+ Task Success Rate)
+
+The core room booking and admin management workflow—**Admin manages room availability (Available/Pending/Booked) → Student views available rooms → Student submits booking request → Admin reviews & approves/rejects → Live catalog sync**—is fully functional and validated by user testing. 
+
+Before the final Lab 14 presentation, three minor UI enhancements are being implemented:
+1. Sharpening color contrast for Admin **Approve** (Green) and **Reject** (Red) action buttons.
+2. Adding status tooltip helper text (*"Awaiting library staff review"*) for international students.
+3. Updating room status badges to display time-slot duration (e.g., *"Booked until 14:00"*).
