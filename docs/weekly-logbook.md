@@ -236,3 +236,59 @@ Which requirements need final checking before Lab 14?
 - **FR-02 & FR-06 (Search & Available Rooms):** Final check to ensure rooms toggled to "Booked" or "Pending" by the admin are immediately hidden or marked appropriately in the student catalog view.
 - **FR-08 & FR-09 (Status Tracking & Admin Management):** Verify that clicking "Approve" or "Reject" in the admin view instantly updates `localStorage` and reflects across the student's "My Bookings" list.
 - **FR-12 (Dashboard Summary):** Ensure live metric calculation scripts accurately aggregate total bookings, pending requests, and room utilization rates for the final demo showcase.
+
+# Weekly Logbook - Lab 14
+
+## Group Name
+PowerPuff
+
+## Date
+July 31, 2026
+
+## Members Present
+- Nichaphat Leamviset
+- Swe Zin Win
+- Htet Myat Noe
+
+---
+
+## What We Completed Today
+- **Final Product & Repository Consolidation:** Package-verified the entire IT venture repository (`ICT105-PowerPuff-MVP`), ensuring end-to-end alignment between our core user requirements, technical decisions, acquisition funnel metrics, and interactive prototype implementation.
+- **Live Demo & Final Pitch Presentation:** Delivered the 3-minute venture presentation showcase demonstrating the live **BookUP (CampusSpace)** prototype to course instructors and peer reviewers.
+- **Verification of Evidence-Based Refinements:** Proved that our working prototype successfully reflects real empirical feedback gathered during Lab 13 testing, moving beyond a static design to a functional, requirement-validated product.
+
+---
+
+## Final Prototype Updates
+- **Admin Action Button Contrast:** Applied high-contrast color styling to the Admin review panel, featuring solid Green (`#10b981`) for **Approve** and Red (`#ef4444`) for **Reject** buttons to improve touch usability on mobile viewports.
+- **Status Helper Micro-Copy:** Added contextual tooltips (*"Awaiting library staff review"*) beneath status tags to remove ambiguity for international student users during the **Pending Approval** stage.
+- **Time-Slot Duration Badges:** Appended live duration metadata to room status indicators (e.g., *"Booked until 14:00"*) to show students exactly when unavailable rooms free up.
+
+---
+
+## Final Documentation Updates
+- **`README.md` Final Audit:** Fully updated the progress log, current status, and repository structure links across all 14 labs.
+- **`final-reflection.md` Created:** Published a comprehensive post-project reflection covering key learnings on user needs, technical challenges in `localStorage` state handling, requirement scope management, and future product roadmap items.
+- **Traceability Matrix Verification:** Finalized the mapping table verifying that all functional requirements (**FR-01** through **FR-12**) are fully satisfied by working code modules within `/prototype/` and `/landing-page/`.
+
+---
+
+## GitHub Contributions Today
+
+| Member | File/Issue/Commit Updated | Evidence Link |
+| --- | --- | --- |
+| Nichaphat Leamviset | Updated final UI contrast styles (`style.css`), finalized `/docs/weekly-logbook.md`, and completed `/docs/final-reflection.md`. | [Commit Evidence](https://github.com/Hannyyoop/ICT105-PowerPuff-MVP/commits/main/docs) |
+| Swe Zin Win | Verified client-side state persistence (`script.js`), conducted cross-browser verification, and resolved dynamic storage sync bugs. | [Commit Evidence](https://github.com/Hannyyoop/ICT105-PowerPuff-MVP/commits/main/prototype) |
+| Htet Myat Noe | Performed repository health audit, updated pitch deck assets (`/pitch/deck.pptx`), and finalized the presentation script. | [Commit Evidence](https://github.com/Hannyyoop/ICT105-PowerPuff-MVP/commits/main/pitch) |
+
+---
+
+## Problems Found Before Submission
+- **Cached State Residuals:** Testers running old instances had previous room session data stored locally. Resolved by implementing a clear state reset script upon first launch of the live demo link.
+- **Responsive Table Padding:** Minor layout overlap occurred on narrow mobile screens under the Admin dashboard, fixed by wrapping tables in a responsive scrolling container.
+
+---
+
+## Action Before Final Presentation
+- Conducted a timed dress rehearsal using the finalized demo script to guarantee seamless transitions between the Landing Page, Student Booking Engine, and Admin Management Portal within 3 minutes.
+- Verified live GitHub Pages deployment link to confirm immediate accessibility during the evaluation showcase.
