@@ -148,10 +148,17 @@ nav{
 }
 
 .rooms-grid {
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     align-items: start;
+}
+.no-rooms-message {
+    grid-column: 1 / -1;
+    justify-self: center;
+    text-align: center;
+    padding: 20px 30px;
 }
 
 .room-card{
@@ -258,7 +265,7 @@ nav{
     padding: 14px 24px;
     border: none;
     border-radius: 10px;
-    background-color: #333333;
+    background-color: #1d3557;
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -267,7 +274,7 @@ nav{
 }
 
 .room-search-btn:hover {
-    background-color: #555555;
+    background-color: #32517d;
     transform: translateY(-1px);
 }
 
